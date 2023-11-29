@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\User;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -14,6 +15,12 @@ class UserSeeder extends Seeder
      */
     public function run()
     {
-        //
+        $data = config('users');
+        foreach ($data as $d){
+            $newUser = new User();
+            $newUser->name = $d['name'];
+            $newUser->save();
+        }
+
     }
 }
