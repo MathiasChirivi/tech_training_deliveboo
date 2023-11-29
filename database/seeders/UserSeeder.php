@@ -19,8 +19,10 @@ class UserSeeder extends Seeder
         foreach ($data as $d){
             $newUser = new User();
             $newUser->name = $d['name'];
+            $newUser->lastname = $d['lastname'];
+            $newUser->email = $d['email'];
+            $newUser->password = 'training';
             $newUser->save();
         }
-
     }
 }
