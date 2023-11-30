@@ -7,7 +7,7 @@ return [
         'email' => 'user1@gmail.com',
         'rest_name' => 'Pizzeria Romana Bassa e Scrocchiarella',
         'rest_address' => 'Via Roma 36, Torino',
-        'rest_piva' => '1545262584452',
+        'rest_piva' => '1545262584451',
         'rest_photo' => 'https://media-assets.lacucinaitaliana.it/photos/61fac9aebe6f37f54cf8d0de/16:9/w_2560%2Cc_limit/pizzeria-popolare.jpg',
         'typologies' => ['Pizza'],
         'dishes' => [
@@ -87,7 +87,7 @@ return [
         'email' => 'user3@gmail.com',
         'rest_name' => 'Ristorante Pizzeria Sushi',
         'rest_address' => 'Via firenze 45, Torino',
-        'rest_piva' => '1545267884452',
+        'rest_piva' => '1545267884453',
         'rest_photo' => 'https://www.sushienoodles.it/wp-content/uploads/2018/07/corridoio-tavoli-ristorante-sushi.jpg',
         'typologies' => ['Giapponese', 'Pizza'],
         'dishes' => [
