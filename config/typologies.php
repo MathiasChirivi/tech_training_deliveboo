@@ -11,5 +11,7 @@ return [
     "Fast food",
     "Pesce",
     "Carne",
-    "Pizza"
+    "Pizza",
+    "Frutti di mare",
+    "Toscana"
 ];

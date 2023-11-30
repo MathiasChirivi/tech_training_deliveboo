@@ -16,7 +16,7 @@ class OrderSeeder extends Seeder
     public function run()
     {
 
-       /*  $data = config('orders');
+        $data = config('orders');
 
         foreach ($data as $order) {
             $newOrder = new Order();
@@ -28,6 +28,6 @@ class OrderSeeder extends Seeder
             $newOrder->status = $order['status'];
             $newOrder->totalprice = $order['totalprice'];
             $newOrder->save();
-        } */
+        }
     }
 }

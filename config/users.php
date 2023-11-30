@@ -22,22 +22,23 @@ return [
                 'name' => 'Pizza Capricciosa',
                 'visible' => true,
                 'price' => 10,
-                'ingredients' => 'Farina, acqua, olio, sale, pomodoro, mozzarella, prosciutto cotto, funghi, carciofi, olive',
-                'description' => 'Pizza con prosciutto cotto, funghi, carciofi e olive'
+                'description' => 'Pizza con pomodoro, mozzarella, funghi, olive, prosciutto cotto e carciofi.',
+                'ingredients' => 'Pomodoro, mozzarella, funghi, olive, prosciutto cotto e carciofi'
+
             ],
             [
                 'name' => 'Pizza Marinara',
                 'visible' => true,
                 'price' => 7,
-                'ingredients' => 'Farina, acqua, olio, sale, aglio, origano',
-                'description' => 'Pizza tradizionale con aglio e origano'
+                'description' => 'Pizza con pomodoro, aglio, origano e olio d\'oliva.',
+                'ingredients' => 'pomodoro, aglio, origano e olio di oliva'
             ],
             [
                 'name' => 'Pizza Special',
                 'visible' => false,
                 'price' => 15,
-                'ingredients' => 'Gli ingredienti speciali possono variare',
-                'description' => 'Una pizza speciale che varia di volta in volta'
+                'description' => 'Pizza speciale della casa con ingredienti segreti.',
+                'ingredients' => 'Ingredienti segreti'
             ],
         ]
     ],
