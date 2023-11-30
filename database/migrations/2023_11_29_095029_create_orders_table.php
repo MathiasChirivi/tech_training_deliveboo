@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('name');
             $table->string('lastname');
             $table->string('address');
-            $table->smallInteger('phone');
+            $table->integer('phone')->unsigned();
             $table->boolean('status');
             $table->decimal('totalprice', 10, 2)->unsigned();
         });

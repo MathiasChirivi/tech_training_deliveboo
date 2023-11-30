@@ -16,7 +16,7 @@ return [
                 'visible' => true,
                 'price' => 8,
                 'ingredients' => 'Farina, acqua, olio, sale, pepe, pomodoro, mozzarella, basilico',
-                'description' => 'Classica pizza romana fatta secondo tradizione'
+                'description' => 'Classica pizza romana fatta secondo tradizione, bassa e scrocchiarella'
             ],
             [
                 'name' => 'Pizza Capricciosa',
