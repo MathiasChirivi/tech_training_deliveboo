@@ -16,6 +16,7 @@ class TypologySeeder extends Seeder
     public function run()
     {
         $data = config('typologies');
+        $users = config('users');
 
         foreach ($data as $typology){
 
@@ -24,5 +25,8 @@ class TypologySeeder extends Seeder
             $newTypology->name = $typology;
             $newTypology->save();
         }
+
+
+
     }
 }
