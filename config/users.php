@@ -15,251 +15,117 @@ return [
                 'name' => 'Pizza Margherita',
                 'visible' => true,
                 'price' => 8,
-                'description' => 'Pizza classica con pomodoro, mozzarella e basilico fresco.'
+                'ingredients' => 'Farina, acqua, olio, sale, pepe, pomodoro, mozzarella, basilico',
+                'description' => 'Classica pizza romana fatta secondo tradizione'
             ],
             [
                 'name' => 'Pizza Capricciosa',
                 'visible' => true,
                 'price' => 10,
-                'description' => 'Pizza con pomodoro, mozzarella, funghi, olive, prosciutto cotto e carciofi.'
+                'ingredients' => 'Farina, acqua, olio, sale, pomodoro, mozzarella, prosciutto cotto, funghi, carciofi, olive',
+                'description' => 'Pizza con prosciutto cotto, funghi, carciofi e olive'
             ],
             [
                 'name' => 'Pizza Marinara',
                 'visible' => true,
                 'price' => 7,
-                'description' => 'Pizza con pomodoro, aglio, origano e olio d\'oliva.'
+                'ingredients' => 'Farina, acqua, olio, sale, aglio, origano',
+                'description' => 'Pizza tradizionale con aglio e origano'
             ],
             [
                 'name' => 'Pizza Special',
                 'visible' => false,
                 'price' => 15,
-                'description' => 'Pizza speciale della casa con ingredienti segreti.'
+                'ingredients' => 'Gli ingredienti speciali possono variare',
+                'description' => 'Una pizza speciale che varia di volta in volta'
             ],
         ]
     ],
-
     [
-        'name' => 'Alessia',
-        'lastname' => 'Rossi',
-        'email' => 'user5@gmail.com',
-        'rest_name' => 'Ristorante della Costa',
-        'rest_address' => 'Via della Spiaggia 10, Genova',
-        'rest_piva' => '1545263998765',
-        'rest_photo' => 'https://www.ristorantedellacosta.it/images/ristorante-vista-mare.jpg',
-        'typologies' => ['Seafood', 'Italiana'],
+        'name' => 'Giuseppe',
+        'lastname' => 'Funicello',
+        'email' => 'user2@gmail.com',
+        'rest_name' => 'Sushi nomade digitale',
+        'rest_address' => 'Via firenze 45, Torino',
+        'rest_piva' => '1545267884452',
+        'rest_photo' => 'https://www.sushienoodles.it/wp-content/uploads/2018/07/corridoio-tavoli-ristorante-sushi.jpg',
+        'typologies' => ['Giapponese'],
         'dishes' => [
             [
-                'name' => 'Spaghetti alle Vongole',
+                'name' => 'Sushi Misto',
                 'visible' => true,
-                'price' => 18,
-                'description' => 'Fresh clams served with perfectly cooked spaghetti in a garlic and white wine sauce.'
+                'price' => 23,
+                'ingredients' => 'Riso, salmone, tonno, gamberetti, alga nori',
+                'description' => 'Assortimento di sushi tradizionale'
             ],
             [
-                'name' => 'Grilled Calamari',
+                'name' => 'Sashimi Salmone',
                 'visible' => true,
-                'price' => 20,
-                'description' => 'Tender calamari, marinated and grilled to perfection.'
+                'price' => 15,
+                'ingredients' => 'Salmone fresco tagliato a fette sottili',
+                'description' => 'Fette di salmone fresco'
             ],
             [
-                'name' => 'Tiramisu',
-                'visible' => true,
-                'price' => 8,
-                'description' => 'A classic Italian dessert with layers of coffee-soaked ladyfingers and mascarpone cream.'
-            ],
-            [
-                'name' => 'Lobster Risotto',
-                'visible' => false,
-                'price' => 35,
-                'description' => 'Luxurious risotto made with lobster meat and saffron.'
-            ],
-        ]
-    ],
-
-    [
-        'name' => 'Marco',
-        'lastname' => 'Bianchi',
-        'email' => 'user6@gmail.com',
-        'rest_name' => 'Osteria del Gusto',
-        'rest_address' => 'Piazza della Repubblica 8, Milano',
-        'rest_piva' => '1545264554321',
-        'rest_photo' => 'https://www.osteriadelgusto.it/images/osteria-interno.jpg',
-        'typologies' => ['Italiana'],
-        'dishes' => [
-            [
-                'name' => 'Ravioli di Zucca',
+                'name' => 'Sashimi Tonno',
                 'visible' => true,
                 'price' => 14,
-                'description' => 'Ravioli ripieni di zucca serviti con burro e salvia.'
+                'ingredients' => 'Tonno fresco tagliato a fette sottili',
+                'description' => 'Fette di tonno fresco'
             ],
             [
-                'name' => 'Bistecca alla Fiorentina',
-                'visible' => true,
-                'price' => 30,
-                'description' => 'Una succulenta bistecca alla griglia alla fiorentina.'
-            ],
-            [
-                'name' => 'Panna Cotta',
-                'visible' => true,
-                'price' => 7,
-                'description' => 'Dolce cremoso con salsa al caramello e frutti di bosco.'
-            ],
-            [
-                'name' => 'Filetto di Manzo al Pepe Verde',
+                'name' => 'Barca 2 persone',
                 'visible' => false,
-                'price' => 25,
-                'description' => 'Filetto di manzo con salsa al pepe verde.'
+                'price' => 45,
+                'ingredients' => 'Assortimento di sushi e sashimi per 2 persone',
+                'description' => 'Una barca con varietà di sushi e sashimi'
             ],
         ]
     ],
-
     [
-        'name' => 'Simone',
-        'lastname' => 'Martini',
-        'email' => 'user8@gmail.com',
-        'rest_name' => 'Ristorante del Mare',
-        'rest_address' => 'Via dei Pescatori 25, Napoli',
-        'rest_piva' => '1545265123456',
-        'rest_photo' => 'https://www.ristorantedelmare.it/images/ristorante-vista-mare.jpg',
-        'typologies' => ['Frutti di Mare', 'Italiana'],
+        'name' => 'Luca',
+        'lastname' => 'Formicola',
+        'email' => 'user3@gmail.com',
+        'rest_name' => 'Ristorante Pizzeria Sushi',
+        'rest_address' => 'Via firenze 45, Torino',
+        'rest_piva' => '1545267884452',
+        'rest_photo' => 'https://www.sushienoodles.it/wp-content/uploads/2018/07/corridoio-tavoli-ristorante-sushi.jpg',
+        'typologies' => ['Giapponese', 'Pizza'],
         'dishes' => [
             [
-                'name' => 'Spaghetti alle Cozze',
+                'name' => 'Pizza Onigiri',
                 'visible' => true,
-                'price' => 16,
-                'description' => 'Spaghetti con sugo di pomodoro e cozze fresche.'
+                'price' => 32,
+                'ingredients' => 'Riso, alghe, tonno, avocado, salsa di soia',
+                'description' => 'Pizza con base di riso e topping giapponesi'
             ],
             [
-                'name' => 'Frittura di Paranza',
+                'name' => 'Pizza Sashimi',
                 'visible' => true,
-                'price' => 22,
-                'description' => 'Assortimento di pesce fritto di piccole dimensioni.'
+                'price' => 30,
+                'ingredients' => 'Pesce crudo tagliato a fette sottili',
+                'description' => 'Pizza con topping di pesce crudo'
             ],
             [
-                'name' => 'Sformato di Pesce',
+                'name' => 'Sashimi Tonno',
                 'visible' => true,
-                'price' => 12,
-                'description' => 'Sformato leggero a base di pesce misto e patate.'
+                'price' => 14,
+                'ingredients' => 'Tonno fresco tagliato a fette sottili',
+                'description' => 'Fette di tonno fresco'
             ],
             [
-                'name' => 'Risotto ai Frutti di Mare',
+                'name' => 'Pizza Margherita',
+                'visible' => true,
+                'price' => 8,
+                'ingredients' => 'Farina, acqua, olio, sale, pomodoro, mozzarella, basilico',
+                'description' => 'Classica pizza margherita'
+            ],
+            [
+                'name' => 'Barca 2 persone',
                 'visible' => false,
-                'price' => 28,
-                'description' => 'Risotto ricco con frutti di mare assortiti.'
+                'price' => 45,
+                'ingredients' => 'Assortimento di sushi e sashimi per 2 persone',
+                'description' => 'Una barca con varietà di sushi e sashimi'
             ],
         ]
     ],
-
-    [
-        'nome' => 'Giulia',
-        'cognome' => 'Bianchi',
-        'email' => 'giulia.bianchi@example.com',
-        'nome_ristorante' => 'Osteria della Nonna',
-        'indirizzo_ristorante' => 'Via delle Rose 10, Firenze',
-        'piva_ristorante' => '9876543210123',
-        'foto_ristorante' => 'https://www.osteriadellanonna.it/images/osteria.jpg',
-        'tipologie' => ['Toscana', 'Carne'],
-        'piatti' => [
-            [
-                'nome' => 'Ribollita',
-                'visibile' => true,
-                'prezzo' => 12,
-                'description' => 'Zuppa toscana con pane raffermo, verdure e fagioli.'
-            ],
-            [
-                'nome' => 'Bistecca alla Fiorentina',
-                'visibile' => true,
-                'prezzo' => 25,
-                'description' => 'Tagliata di carne di manzo grigliata.'
-            ],
-            [
-                'nome' => 'Pappa al Pomodoro',
-                'visibile' => true,
-                'prezzo' => 10,
-                'description' => 'Piatto toscano a base di pane, pomodoro e basilico.'
-            ],
-            [
-                'nome' => 'Risotto al Nero di Seppia',
-                'visibile' => false,
-                'prezzo' => 18,
-                'description' => 'Risotto con il nero di seppia e frutti di mare.'
-            ],
-        ]
-    ],
-
-    [
-        'nome' => 'Luca',
-        'cognome' => 'Verdi',
-        'email' => 'luca.verdi@example.com',
-        'nome_ristorante' => 'Trattoria della Piazza',
-        'indirizzo_ristorante' => 'Piazza Garibaldi 8, Milano',
-        'piva_ristorante' => '8765432109876',
-        'foto_ristorante' => 'https://www.trattoriadellapiazza.it/images/trattoria.jpg',
-        'tipologie' => ['Italiana', 'Pesce'],
-        'piatti' => [
-            [
-                'nome' => 'Risotto ai Frutti di Mare',
-                'visibile' => true,
-                'prezzo' => 20,
-                'description' => 'Risotto con una selezione di frutti di mare freschi.'
-            ],
-            [
-                'nome' => 'Ossobuco alla Milanese',
-                'visibile' => true,
-                'prezzo' => 22,
-                'description' => 'Ossobuco di vitello cotto lentamente con zafferano.'
-            ],
-            [
-                'nome' => 'Tiramisu della Casa',
-                'visibile' => true,
-                'prezzo' => 10,
-                'description' => 'Tiramisu fatto in casa con ingredienti freschi.'
-            ],
-            [
-                'nome' => 'Pasta al Nero di Seppia',
-                'visibile' => false,
-                'prezzo' => 16,
-                'description' => 'Pasta con il nero di seppia e pomodorini.'
-            ],
-        ]
-    ],
-
-    [
-        'nome' => 'Giovanni',
-        'cognome' => 'Bianchi',
-        'email' => 'giovanni.bianchi@example.com',
-        'nome_ristorante' => 'Ristorante Buon Gusto',
-        'indirizzo_ristorante' => 'Via Roma 15, Napoli',
-        'piva_ristorante' => '1234567890123',
-        'foto_ristorante' => 'https://www.ristorantebuongusto.it/images/ristorante.jpg',
-        'tipologie' => ['Italiana', 'Pizza'],
-        'piatti' => [
-            [
-                'nome' => 'Pizza Margherita',
-                'visibile' => true,
-                'prezzo' => 12,
-                'description' => 'Classica pizza con pomodoro, mozzarella e basilico fresco.'
-            ],
-            [
-                'nome' => 'Melanzane alla Parmigiana',
-                'visibile' => true,
-                'prezzo' => 18,
-                'description' => 'Melanzane grigliate con salsa di pomodoro e formaggio.'
-            ],
-            [
-                'nome' => 'Panna Cotta al Cioccolato',
-                'visibile' => true,
-                'prezzo' => 8,
-                'description' => 'Deliziosa panna cotta al cioccolato con salsa alle fragole.'
-            ],
-            [
-                'nome' => 'Linguine allo Scoglio',
-                'visibile' => false,
-                'prezzo' => 20,
-                'descrizione' => 'Linguine con una varietà di frutti di mare freschi.'
-            ],
-        ]
-    ],
-
-
-
 ];
