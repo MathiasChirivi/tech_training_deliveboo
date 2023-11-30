@@ -22,17 +22,19 @@ class ResturantSeeder extends Seeder
         Schema::enableForeignKeyConstraints();
 
 
-        $resturants = config('resturant.resturants');
+        $resturants = config('users');
+        $count = 1;
 
         foreach ($resturants as $resturant) {
             $newResturant = new Resturant();
 
-            $newResturant->user_id = $resturant['user_id'];
-            $newResturant->name = $resturant['name'];
-            $newResturant->address = $resturant['address'];
-            $newResturant->piva = $resturant['piva'];
-            $newResturant->photo = $resturant['photo'];
-            
+            $newResturant->user_id = $count;
+            $newResturant->name = $resturant['rest_name'];
+            $newResturant->address = $resturant['rest_address'];
+            $newResturant->piva = $resturant['rest_piva'];
+            $newResturant->photo = $resturant['rest_photo'];
+            $count++;
+
             $newResturant->save();
         }
     }
