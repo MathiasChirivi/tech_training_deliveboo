@@ -16,10 +16,10 @@ return new class extends Migration
         Schema::create('resturants', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
-            $table->foreignId('user_id')->constrained()->cascadeOnDelete();
+            $table->foreignId('user_id');
             $table->string('name');
             $table->string('address');
-            $table->smallInteger('piva')->unsigned();
+            $table->bigInteger('piva')->unsigned();
             $table->text('photo');
         });
     }
