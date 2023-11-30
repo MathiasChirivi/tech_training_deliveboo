@@ -51,7 +51,7 @@ return [
         'rest_address' => 'Via della Spiaggia 10, Genova',
         'rest_piva' => '1545263998765',
         'rest_photo' => 'https://www.ristorantedellacosta.it/images/ristorante-vista-mare.jpg',
-        'typologies' => ['Seafood', 'Italiana'],
+        'typologies' => ['Frutti di mare', 'Italiana'],
         'dishes' => [
             [
                 'name' => 'Spaghetti alle Vongole',
