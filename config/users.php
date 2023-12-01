@@ -129,4 +129,16 @@ return [
             ],
         ]
     ],
+    [
+        'name' => 'Gigi',
+        'lastname' => "D'alessio",
+        'email' => 'user4@gmail.com',
+        'rest_name' => "Ristorante Le domeniche d'agosto",
+        'rest_address' => 'Via napoli 25, Torino',
+        'rest_piva' => '1545267884454',
+        'rest_photo' => 'https://www.napolitoday.it/~media/horizontal-hi/47615476189093/figlia-marenaro-d-alessio-2.jpg',
+        'typologies' => ['Carne', 'Pizza', 'Pesce', 'Frutti di mare'],
+        'dishes' => [
+        ]
+    ],
 ];
