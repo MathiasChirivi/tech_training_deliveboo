@@ -20,7 +20,7 @@ return new class extends Migration
             $table->string('name');
             $table->string('address');
             $table->bigInteger('piva')->unsigned();
-            $table->text('photo');
+            $table->text('photo')->nullable();
         });
     }
 
