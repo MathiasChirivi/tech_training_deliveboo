@@ -17,7 +17,7 @@ class OrderSeeder extends Seeder
     {
 
         $data = config('orders');
-
+        $pivotCount = 1;
         foreach ($data as $order) {
             $newOrder = new Order();
 
@@ -28,6 +28,14 @@ class OrderSeeder extends Seeder
             $newOrder->status = $order['status'];
             $newOrder->totalprice = $order['totalprice'];
             $newOrder->save();
+
+            $dishesToSync = [];
+            for ($i = $pivotCount; $i < $pivotCount + 4; $i += 2) {
+                $dishesToSync[$i] = ['quantity' => rand(1, 5)];
+            }
+            $newOrder->dishes()->sync($dishesToSync);
+
+            $pivotCount += 4;
         }
     }
 }
