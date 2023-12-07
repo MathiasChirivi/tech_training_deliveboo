@@ -4,6 +4,8 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use App\Models\User;
 
 class UserController extends Controller
 {
@@ -14,8 +16,8 @@ class UserController extends Controller
      */
     public function index()
     {
-        $resturant = Auth::resturant();
-        return view("admin.resturant.index", compact("resturant"));
+        $user = Auth::user();
+        return view("admin.resturant.index", compact("user"));
     }
 
     /**
@@ -25,7 +27,7 @@ class UserController extends Controller
      */
     public function create()
     {
-        //
+        return view("admin.resturant.create");
     }
 
     /**
@@ -45,9 +47,10 @@ class UserController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(User $user)
     {
-        //
+        $users = User::find(1);
+        return view("admin.resturant.show", compact("users"));
     }
 
     /**
