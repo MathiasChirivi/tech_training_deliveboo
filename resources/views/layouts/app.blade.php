@@ -44,11 +44,11 @@
                                 <!-- Authentication Links -->
                                 @guest
                                 <li class="nav-item">
-                                    <a class="nav-link text-white" href="{{ route('login') }}">{{ __('Login') }}</a>
+                                    <a class="nav-link text-black" href="{{ route('login') }}">{{ __('Login') }}</a>
                                 </li>
                                 @if (Route::has('register'))
                                 <li class="nav-item">
-                                    <a class="nav-link text-white" href="{{ route('register') }}">{{ __('Register') }}</a>
+                                    <a class="nav-link text-black" href="{{ route('register') }}">{{ __('Register') }}</a>
                                 </li>
                                 @endif
                                 @else
@@ -74,14 +74,9 @@
                         </div>
                     </div>
                 </nav>
-                <main class="mx-auto p-0 bg_navbar">
+                {{-- <main class="mx-auto p-0 bg_navbar">
                     @yield('content')
-                </main>
-                
-            
-        
-
-
+                </main> --}}
     </div>
     
 </body>

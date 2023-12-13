@@ -1,4 +1,4 @@
-<!doctype html>
+{{-- <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
@@ -70,11 +70,11 @@
 
 				<main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
 					@yield('content')
-				</main>
+				</main> 
 			</div>
 		</div>
 
 	</div>
 </body>
 
-</html>
+</html> --}}

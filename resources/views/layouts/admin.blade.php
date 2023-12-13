@@ -31,7 +31,7 @@
 						<ul class="nav flex-column">
 
 							<li class="nav-item">
-								<a class="nav-link text-white" href="/">
+								<a class="nav-link text-white" href="http://localhost:5174/">
 									<i class="fa-solid fa-home-alt fa-lg fa-fw"></i> Home
 								</a>
 							</li>
@@ -42,12 +42,12 @@
                                 </a>
                             </li>
 
-							<a class="nav-link text-white" href="{{ route('admin.users.index') }}">
+							<a class="nav-link text-white" href="{{ route('admin.resturant.index') }}">
 								<i class="fa-solid fa-list-alt fa-lg fa-fw"></i> Il mio ristorante
 							</a>
 
 							<li class="nav-item">
-								<a class="nav-link text-white" href="">
+								<a class="nav-link text-white" href="{{ route('admin.dishes.create') }}">
 									<i class="fa-solid fa-plus fa-lg fa-fw"></i> Aggiungi piatto
 								</a>
 							</li>

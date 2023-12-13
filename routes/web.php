@@ -2,7 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\DashboardController; //<---- Import del controller precedentemente creato!
-use App\Http\Controllers\Admin\UserController;
+use App\Http\Controllers\ResturantController;
+use App\Http\Controllers\DishController;
 
 /* ... */
 
@@ -18,7 +19,13 @@ Route::middleware(['auth'])
         // - il percorso "/" diventa "admin/"
         // - il nome della rotta ->name("dashboard") diventa ->name("admin.dashboard")
         Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
-        Route::resource('users', UserController::class);
+        Route::resource('resturant', ResturantController::class);
+        
+        Route::get('dishes/create', [DishController::class, 'create'])->name('dishes.create');
+        Route::post('dishes', [DishController::class, 'store'])->name('dishes.store');
+ 
+
+        // Route::resource('users', UserController::class);
 
 });
 
